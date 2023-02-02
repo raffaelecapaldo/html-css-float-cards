@@ -28,28 +28,44 @@ header h1 {
 
 main {
     padding-top:30px;
-    max-width: 66%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .introtext {
-    text-align:center;
     font-weight: 400;
-    font-size:1.2rem;
+    font-size:1.1rem;
     margin-bottom:50px;
+    text-align:center;
 }
 
 main div {
 /*     border:1px solid black;
- */    width: calc(100% / 3);
+ */    width: calc(100% / 3 - 25px);
     float:left;
-    margin-bottom:50px;
-    padding:0px;
+    background-color:black;
+    margin-left:25px;
+    margin-bottom:40px;
+}
 
+main h3 {
+    color:white;
+    padding-top:10px;
+}
+
+main p {
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+}
+
+a {
+    padding-top:20px;
 }
 
 img {
     max-width: 120px;
     max-height: 120px;
     float:left;
+    padding-right:10px;
 }
