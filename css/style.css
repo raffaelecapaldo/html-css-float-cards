@@ -34,14 +34,22 @@ main {
 
 .introtext {
     text-align:center;
-    font-weight: 300;
-    margin-bottom:40px;
+    font-weight: 400;
+    font-size:1.2rem;
+    margin-bottom:50px;
 }
 
 main div {
-    border:1px solid black;
-    width: calc(100% / 3);
+/*     border:1px solid black;
+ */    width: calc(100% / 3);
     float:left;
-    margin-bottom:40px
+    margin-bottom:50px;
+    padding:0px;
 
+}
+
+img {
+    max-width: 120px;
+    max-height: 120px;
+    float:left;
 }
