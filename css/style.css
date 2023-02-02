@@ -38,7 +38,10 @@ main {
     margin-bottom:40px;
 }
 
-div {
+main div {
     border:1px solid black;
+    width: calc(100% / 3);
+    float:left;
+    margin-bottom:40px
 
 }
