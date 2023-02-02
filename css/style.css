@@ -15,9 +15,10 @@ body {
     --platetextcolor:white;
     --platecolor:#0f0e17;
     --titlefont:font-family: 'Fredoka One', cursive;
+    --mailcolor:#1a98df;
 }
 
-/* HEADER */
+
 header h1 {
     color:var(--titlecolor);
     text-align:center;
@@ -37,35 +38,45 @@ main {
     font-size:1.1rem;
     margin-bottom:50px;
     text-align:center;
+    color:black;
 }
 
+/* PLATES STYLE */
 main div {
 /*     border:1px solid black;
  */    width: calc(100% / 3 - 25px);
     float:left;
     background-color:black;
     margin-left:25px;
-    margin-bottom:40px;
+    margin-bottom:50px;
+    
 }
 
+/* NAMES STYLE */
 main h3 {
     color:white;
     padding-top:10px;
 }
 
+/* JOB STYLE */
 main p {
     padding-top:10px;
-    padding-bottom:10px;
+    padding-bottom:5px;
     color:white;
 }
 
-a {
-    padding-top:20px;
+
+/* PHOTO STYLE */
+img {
+    max-width: 110px;
+    max-height: 110px;
+    float:left;
+    padding-right:15px;
 }
 
-img {
-    max-width: 120px;
-    max-height: 120px;
-    float:left;
-    padding-right:10px;
+/* MAIL STYLE */
+a {
+    color:var(--mailcolor);
+    font-weight: bold;
+    text-decoration: none;
 }
