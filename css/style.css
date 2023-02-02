@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
 }
 
 /*  VARIABLES */
@@ -23,4 +24,21 @@ header h1 {
     font-family: var(--titlefont);
     font-size:2.5rem;
     padding-top:30px;
+}
+
+main {
+    padding-top:30px;
+    max-width: 66%;
+    margin: 0 auto;
+}
+
+.introtext {
+    text-align:center;
+    font-weight: 300;
+    margin-bottom:40px;
+}
+
+div {
+    border:1px solid black;
+
 }
