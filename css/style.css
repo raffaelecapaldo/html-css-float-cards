@@ -43,11 +43,10 @@ main {
 
 /* PLATES STYLE */
 main div {
-/*     border:1px solid black;
- */    min-width: calc(100% / 3 - 25px);
+    min-width: calc(100% / 3 - 20px);
     float:left;
     background-color:black;
-    margin-left:25px;
+    margin-left:20px;
     margin-bottom:50px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
     
@@ -69,8 +68,8 @@ main p {
 
 /* PHOTO STYLE */
 img {
-    max-width: 110px;
-    max-height: 110px;
+    max-width: 115px;
+    max-height: 115px;
     float:left;
     padding-right:15px;
 }
@@ -80,5 +79,7 @@ a {
     color:var(--mailcolor);
     font-weight: bold;
     text-decoration: none;
+    display:block;
+    padding-bottom: 10px;
 }
 
